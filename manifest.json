@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+
+  "name": "BatchTabs",
+  "description": "Easily save groups of tabs for specific activities.",
+  "version": "1.0.1",
+  
+  "icons": {
+	"16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+          
+  "incognito" : "spanning",
+  "browser_action": {
+    "default_icon": "icon48.png",
+    "default_popup": "popup.html"
+  },
+  
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "windows": "Ctrl+Shift+Comma",
+        "mac": "Command+Shift+Comma",
+        "chromeos": "Ctrl+Shift+Comma",
+        "linux": "Ctrl+Shift+Comma"
+      }
+    }
+  },
+  
+  "permissions": ["tabs", "storage"]
+}

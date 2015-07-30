@@ -1,0 +1,133 @@
+body {
+	width: 300px;
+	margin: 0;
+	font-family: 'Open Sans', Serif;
+}
+
+button {
+	height: 20px;
+	background-color: white;
+	color: black;
+	border: 0;
+	border-radius: 3px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#logo {
+	display: inline-block;
+	width: 20px;
+	float: left;
+	
+	/*position: relative;
+	bottom: 5px;*/
+}
+
+#message {
+	color: white;
+}
+
+#addBatch:focus {
+	outline: none;
+}
+
+input {
+	height: 14px;
+	margin-right: 5px;
+}
+
+#saveDialog, #addBatchPrompt {
+	float: right;
+	text-align: right;
+	width: 240px;
+}
+
+#head {
+	padding: 10px 8px 10px 8px;
+	height: 20px;
+	background-color: #e04153;
+}
+
+#batches {
+	width: 100%;
+	max-height: 275px;/*255 + 20 - 2*/
+	overflow-y: auto;
+	
+	position: relative;
+	bottom: 2px;
+}
+
+#batches:first-child {
+	border: 0;
+}
+
+#aboutTab {
+	width: 40px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	background-color: #e04153;
+	border-top-left-radius: 3px;
+	padding-left: 5px;
+}
+
+#aboutTab a {
+	color: white;
+	text-decoration: none;
+}
+
+#aboutTab a:hover {
+	text-decoration: underline;
+}
+
+.batch {
+	position: relative;
+	background-color: white;
+	height: 50px;
+	border-top: 1px solid #e04153;
+}
+
+.batchText {
+	font-size: 20px;
+	color: #e04153;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 14px;
+	margin-left: 15px;
+	display: inline-block;
+	z-index: -1000;
+}
+
+.batchText:hover {
+	text-decoration: none;
+}
+
+.batchActions {
+	position: absolute;
+	top: 2px;
+	right: 2px;
+}
+
+.batchAction {
+	color: #e04153;
+	margin-left: 5px;
+}
+
+.batch:hover *, .batch-hover * {
+	color: white;
+}
+
+.batch:hover button, .batch:hover input, .batch-hover button, .batch-hover input {
+	color: black;
+}
+
+.batch:hover, .batch-hover {
+	background-color: #e04153;
+	border-top: 1px solid white;
+}

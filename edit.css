@@ -1,0 +1,38 @@
+body {
+	background-color: #e04153;
+	color: white;
+	font-family: 'Open Sans', Serif;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 40px;
+}
+
+#logo {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 64px;
+}
+
+#center {
+	width: 500px;
+	margin-left: calc(50% - 250px);
+	margin-top: 10%;
+	
+	font-size: 20px;
+}
+
+#name {
+	height: 30px;
+	font-size: 30px;
+}
+
+#save {
+	height: 36px;
+	font-size: 20px;
+	position: relative;
+	bottom: 4px;
+	left: 10px;
+}
