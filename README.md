@@ -13,7 +13,3 @@ BatchTabs is a simple chrome extension that allows you to open specific collecti
 Open BatchTabs: *Cmd + Shift + Comma*
 Move up and down batches: *Up/Down arrow keys*
 Open batch: *Enter*
-
-## Cloud Syncing
-
-BatchTabs uses Google Chrome's built-in cloud syncing to sync your tabs across all your devices.
